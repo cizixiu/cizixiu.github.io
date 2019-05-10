@@ -1,0 +1,26 @@
+.noprint{
+    display:none;
+}
+.user-form .logo{
+    display:none;
+}
+body{
+    color:#000000;
+}
+body *{color:black;}
+.table td{border:1px dashed #707070;}
+.table .borderTop{
+    border-top:2px solid #000000;
+}
+.table .borderLeft{
+    border-left:2px solid #000000;
+}
+.user-top{
+    padding-bottom: 5px;
+}
+.user-form p:first-child{
+    margin-bottom:-5px;
+}
+#footer{
+    margin-top: 0;
+}
