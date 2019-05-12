@@ -28,7 +28,7 @@ $(document).ready(function()
 	$(".videoInfo").css("display", "inline");
 	
 	// Move projects to second column
-	$(".project:odd").appendTo("#col2");
+	// $(".project:odd").appendTo("#col2");
 		
 	// Project thumbnail hover
 	$(".projectThumbnail").on("mouseenter", function(e)
@@ -60,56 +60,33 @@ $(document).ready(function()
 	}
 	
 	// Page navigation
-	var isWorkCurrentPage = true;
-	var isAboutCurrentPage = false;
 	
 	$("#logoDetailView").click(function()
 	{
 		window.location = "../../index.html";
 	});
 	
-	$("#workPage, #logo").click(function()
-		{
-			if(!isWorkCurrentPage)
-			{
-				isWorkCurrentPage = true;
-				isAboutCurrentPage = false;
-				$("#workPage").attr("class", "currentPage");
-				$("#aboutPage").removeClass("currentPage");
-				
-				$("#about").fadeOut(500, function()
-				{
-					$("#work").fadeIn(500);
+	$("#navigation button").click(function(){
+				var index_before = $(this).parent().index();
+				var id_before = $(this).attr("id");
+				var index_after = $(this).parent().parent().find(".currentPage").parent().index();
+				var id_after = $("#navigation").find('.currentPage').attr("id");
+				$(this).parent().parent().find("button").removeClass("currentPage");
+				$(this).addClass("currentPage");
+
+				$("."+id_after).fadeOut(500, function(){
+					$("."+id_before).fadeIn(500);
 				});
-			}
 		});
-	
-	$("#aboutPage").click(function()
-		{
-			if(!isAboutCurrentPage)
-			{
-				isAboutCurrentPage = true;
-				isWorkCurrentPage = false;
-				$("#aboutPage").attr("class", "currentPage");
-				$("#workPage").removeClass("currentPage");
-				
-				$("#work").fadeOut(500, function()
-				{
-					$("#about").fadeIn(500);
-				});
-			}
-		});
-	
 	// Make Work page current page
-	$("#workPage").attr("class", "currentPage");
+	// $("#workPage").attr("class", "currentPage");
 	
 	// Hide About page
-	//$("#about").css("display", "none");
-	$("#about").fadeOut(0);
+	// $("#about").css("display", "none");
+	// $("#about").fadeOut(0);
 	
 	// For site fade site in
 	$(".container").css("display", "none");
-	
 });
 
 // Remove site preloader after site is loaded
@@ -185,7 +162,7 @@ jQuery(document).ready(function($) {
 				var numSlides = sliderInstance.numSlides;
 				
 				// Fixes bug when resizing window on About page
-				$("#logo, #workPage").click(function() {
+				$("#logo, #homePage").click(function() {
 					function bugFix() {
 						sliderInstance.updateSliderSize();
 						$(".projectThumbnailHover").fadeOut(800);
@@ -316,7 +293,7 @@ jQuery(document).ready(function($) {
 		currOpenProject.find(".projectThumbnailHover").fadeOut(200, function(){currOpenProject.find(".projectThumbnailHover").css("visibility", "hidden")});
 	});
 	
-	$(".closeButton, #aboutPage, #logo").click(function() {
+	$(".closeButton, #logo").click(function() {
 		
 		// Add a delay to fix weird issue with resizing About page
 		function closeSlider() {
