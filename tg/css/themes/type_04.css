@@ -337,7 +337,7 @@ nav ul li {
 	@media only screen and (max-width: 959px) {
 		
 		nav ul li a, nav ul li button, nav ul li span, #detailViewBack {
-			font-size: 12px;
+			font-size: 14px;
 		}
 		
 		nav {
@@ -415,7 +415,7 @@ nav ul li {
 		}
 		
 		#overview h3 {
-			font-size: 22px;	
+			font-size: 18px;	
 		}
 		
 		.projectThumbnailHover h4 {
