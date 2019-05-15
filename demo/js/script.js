@@ -87,6 +87,9 @@ $(document).ready(function()
 	
 	// For site fade site in
 	$(".container").css("display", "none");
+	$("#logo").click(function(){
+		$("#homePage").click();
+	})
 });
 
 // Remove site preloader after site is loaded
@@ -160,7 +163,7 @@ jQuery(document).ready(function($) {
 				
 				var sliderInstance = sliderEl.portfolioSlider(sliderProps).data('portfolioSlider');
 				var numSlides = sliderInstance.numSlides;
-				
+			
 				// Fixes bug when resizing window on About page
 				$("#logo, #homePage").click(function() {
 					function bugFix() {
