@@ -15,8 +15,8 @@ header { border-color: #c45723; }
 #logo h1, #logoDetailView h1 { color: #383324; }
 #logo h2, #logoDetailView h2 { color: #383324; }
 nav ul li a, nav ul li a:visited, nav ul li button { color: #c45723; }
-.project {
-	border-radius: 10px;
+.project img{
+	border-radius: 5px;
 }
 .currentPage, button.currentPage:hover { color: #383324 !important; }
 nav ul li button:hover, nav ul li button:active, nav ul li button:focus, nav ul li a:hover, nav ul li a:active, nav ul li a:focus, #heroNav a:hover, #heroNav a:visited:hover, #heroNav a:active, #heroNav a:focus, #formSubmit:hover, .contentModule a:hover, .contentModule a:visited:hover, .contentModule a:active, .contentModule a:focus { color: #ffffff; }
