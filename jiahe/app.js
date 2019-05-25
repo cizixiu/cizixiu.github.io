@@ -9678,7 +9678,7 @@
 						className: "btn btn-light",
 						"data-dismiss": "modal",
 						onClick: this._onClickClose
-					}, "\u5173\u95ed")))))
+					}, "\u786e\u5b9a")))))
 				},
 				_onChangeColor: function(e) {
 					var t;
