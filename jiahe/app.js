@@ -1,3 +1,4 @@
+
 ! function() {
 	function e(t, n, r) {
 		function o(a, s) {
@@ -9540,7 +9541,7 @@
 						value: a.HIRAKI,
 						onChange: this._onChangeSasiType,
 						checked: i.sasiType === a.HIRAKI
-					}), "\u958b\u304d"))), o.createElement("div", {
+					}), "\u4ea4\u9519"))), o.createElement("div", {
 						className: "form-group"
 					}, o.createElement("div", {
 						className: "col-xs-offset-4 col-xs-8"
