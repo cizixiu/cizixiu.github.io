@@ -9511,7 +9511,7 @@
 					}, o.createElement("label", {
 						className: "col-xs-4",
 						htmlFor: "offset_" + i.id
-					}, "\u523a\u7ee3\u8d77\u59cb\u70b9"), o.createElement("div", {
+					}, "\u8d77\u7ee3\u70b9"), o.createElement("div", {
 						className: "col-xs-8"
 					}, o.createElement("select", {
 						className: "form-control",
@@ -9533,7 +9533,7 @@
 						value: a.NAMI,
 						onChange: this._onChangeSasiType,
 						checked: i.sasiType === a.NAMI
-					}), "\u5e76\u5217"), o.createElement("label", {
+					}), "\u6b63\u5411"), o.createElement("label", {
 						className: "radio-inline"
 					}, o.createElement("input", {
 						type: "radio",
@@ -9541,7 +9541,7 @@
 						value: a.HIRAKI,
 						onChange: this._onChangeSasiType,
 						checked: i.sasiType === a.HIRAKI
-					}), "\u4ea4\u9519"))), o.createElement("div", {
+					}), "\u53cd\u5411"))), o.createElement("div", {
 						className: "form-group"
 					}, o.createElement("div", {
 						className: "col-xs-offset-4 col-xs-8"
@@ -9552,13 +9552,13 @@
 						name: "komaKagari_" + i.id,
 						value: i.komaKagari,
 						onChange: this._onChangeKomaKagari
-					}), "\u6346\u624e\u7ec4\u5408\u523a\u7ee3"))))), o.createElement("div", {
+					}), "\u91cd\u53e0"))))), o.createElement("div", {
 						className: "col-xs-12 col-sm-7 col-md-6"
 					}, o.createElement("div", {
 						className: "row"
 					}, o.createElement("div", {
 						className: "col-xs-12"
-					}, o.createElement("label", null, "\u7ebf\u8272\u548c\u6bb5\u6570"), o.createElement("button", {
+					}, o.createElement("label", null, "\u7ebf\u8272\u6bb5\u6570"), o.createElement("button", {
 						type: "button",
 						className: "btn btn-light btn-addIto",
 						name: "addIto_" + i.id,
@@ -10033,7 +10033,7 @@
 						className: "glyphicon glyphicon-collapse-down"
 					}), this.state.editing || (t = i.createElement("span", {
 						className: "glyphicon glyphicon-expand"
-					}), s = u === o.SINGLE ? "1\u7ec4\u7ebf\u7ee3" : this.props.needleMax + "\u7ec4\u7ebf\u7ee3", e = n + "\u683c\u6570 " + c + "\u683c\u5faa\u73af (" + s + ")"), i.createElement("div", null, i.createElement("div", {
+					}), s = u === o.SINGLE ? "1\u7ec4\u7ebf\u7ee3" : this.props.needleMax + "\u7ec4\u7ebf\u7ee3", e = n + "\u683c " + c + "\u8df3 (" + s + ")"), i.createElement("div", null, i.createElement("div", {
 						className: "collapsedHead",
 						id: "yubinukiConfHeading"
 					}, i.createElement("h4", null, i.createElement("a", {
@@ -10058,7 +10058,7 @@
 						value: n
 					}, r), i.createElement("label", {
 						htmlFor: "komaInput"
-					}, "\u683c\u6570")), i.createElement("div", {
+					}, "\u683c")), i.createElement("div", {
 						className: "form-group col-xs-6 col-sm-3 col-md-2"
 					}, i.createElement("select", {
 						className: "form-control tobiInput",
@@ -10066,7 +10066,7 @@
 						value: c
 					}, l), i.createElement("label", {
 						htmlFor: "tobiInput"
-					}, "\u683c\u5faa\u73af")), i.createElement("div", {
+					}, "\u8df3")), i.createElement("div", {
 						className: "radio-inline needleMode col-xs-12 col-sm-6 col-md-8"
 					}, i.createElement("label", {
 						className: ""
