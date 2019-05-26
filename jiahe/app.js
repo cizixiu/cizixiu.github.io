@@ -9650,7 +9650,7 @@
 							backgroundColor: o
 						}
 					}))));
-					return e = null, t || (e = "\u30d1\u30ec\u30c3\u30c8\u306b\u306a\u3044\u8272\u304c\u6307\u5b9a\u3055\u308c\u3066\u3044\u307e\u3059\u3002(\u7d9a\u884c\u53ef\u80fd)"), a.createElement("div", {
+					return e = null, t || (e = "\u8c03\u8272\u677f\u6ca1\u6709\u6240\u9009\u989c\u8272"), a.createElement("div", {
 						id: "palletModal",
 						className: "modal fade in pallet",
 						tabIndex: "-1",
