@@ -9536,7 +9536,7 @@
 						value: a.NAMI,
 						onChange: this._onChangeSasiType,
 						checked: i.sasiType === a.NAMI
-					}), "\u6b63\u5411"), o.createElement("label", {
+					}), "\u6b63\u5411\u005b\u2192\u005d"), o.createElement("label", {
 						className: "radio-inline"
 					}, o.createElement("input", {
 						type: "radio",
@@ -9544,7 +9544,7 @@
 						value: a.HIRAKI,
 						onChange: this._onChangeSasiType,
 						checked: i.sasiType === a.HIRAKI
-					}), "\u53cd\u5411"))), o.createElement("div", {
+					}), "\u53cd\u5411\u005b\u2190\u005d"))), o.createElement("div", {
 						className: "form-group"
 					}, o.createElement("div", {
 						className: "col-xs-offset-4 col-xs-8"
