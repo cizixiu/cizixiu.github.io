@@ -9511,7 +9511,7 @@
 					}, o.createElement("label", {
 						className: "col-xs-4",
 						htmlFor: "offset_" + i.id
-					}, "\u8d77\u7ee3\u70b9"), o.createElement("div", {
+					}, "\u8d77\u9488\u4f4d\u7f6e"), o.createElement("div", {
 						className: "col-xs-8"
 					}, o.createElement("select", {
 						className: "form-control",
@@ -10029,11 +10029,11 @@
 						value: o.MULTIPLE,
 						onChange: this._onChangeNeedleMode,
 						checked: u === o.MULTIPLE
-					}), this.props.needleMax + "\u7ec4\u7ebf\u7ee3")), t = i.createElement("span", {
+					}), this.props.needleMax + "\u7ec4\u7ebf")), t = i.createElement("span", {
 						className: "glyphicon glyphicon-collapse-down"
 					}), this.state.editing || (t = i.createElement("span", {
 						className: "glyphicon glyphicon-expand"
-					}), s = u === o.SINGLE ? "1\u7ec4\u7ebf\u7ee3" : this.props.needleMax + "\u7ec4\u7ebf\u7ee3", e = n + "\u683c " + c + "\u8df3 (" + s + ")"), i.createElement("div", null, i.createElement("div", {
+					}), s = u === o.SINGLE ? "1\u7ec4\u7ebf" : this.props.needleMax + "\u7ec4\u7ebf", e = n + "\u683c " + c + "\u8df3 (" + s + ")"), i.createElement("div", null, i.createElement("div", {
 						className: "collapsedHead",
 						id: "yubinukiConfHeading"
 					}, i.createElement("h4", null, i.createElement("a", {
@@ -10076,7 +10076,7 @@
 						value: o.SINGLE,
 						onChange: this._onChangeNeedleMode,
 						checked: u === o.SINGLE
-					}), "1\u7ec4\u7ebf\u7ee3"), a, i.createElement("button", {
+					}), "1\u7ec4\u7ebf"), a, i.createElement("button", {
 						className: "btn btn-light cmdReset",
 						onClick: this._onClickReset
 					}, "\u91cd\u7f6e\u7ebf\u7ec4")))))
