@@ -9314,7 +9314,7 @@
 						type: "text",
 						name: "rounds_" + this.props.komaId + "_" + this.props.ito.id,
 						value: this.state.rounds,
-						onBlur: this._save,
+						onBlur: this._saveroundsInput,
 						onChange: this._onChangeRounds,
 						onKeyDown: this._onKeyDown
 					}), i.createElement("label", {
@@ -9386,6 +9386,9 @@
 					}))), i.createElement("div", {
 						className: "clear"
 					}))))
+				},
+				_saveroundsInput: function() {
+					return s.updateIto(this.props.komaId, this.props.ito.id, this.state.color1, this.state.rounds)
 				},
 				_save: function() {
 					return s.updateIto(this.props.komaId, this.props.ito.id, this.state.color, this.state.rounds)
