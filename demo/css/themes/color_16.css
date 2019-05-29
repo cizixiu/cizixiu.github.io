@@ -23,7 +23,6 @@ nav ul li button:hover, nav ul li button:active, nav ul li button:focus, nav ul 
 hr, .projectInfo h4, .projectNav, .projectInfo, .linedList, .projectInfo li, .projectInfo p:nth-last-child(2), .linedList li, nav, blockquote, #formField, #content #heroNav ul li, #footerLinks li, #heroNav, .contentModule, .eight:nth-child(4n) .contentModule:last-child, .eight:nth-of-type(1) .contentModule:last-child { border-color: #978b70; }
 #overview h3 { 
 	color: #ffffff; 
-	line-height:23px;
 
 }
 .projectThumbnailHover { 
