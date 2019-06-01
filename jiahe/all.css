@@ -17,6 +17,8 @@ audio, canvas, progress, video {
 }
 canvas {
 	background: #ffffff;
+	border-radius: 10px;
+	
 }
 audio:not([controls]) {
 	display:none;
@@ -4537,7 +4539,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 .panel {
 	margin-bottom:20px;
 	background-color:#fff;
-	border:1px solid #A9915F;
+
 	border-radius:10px;
 	-webkit-box-shadow:0 1px 1px rgba(0, 0, 0, 0.05);
 	box-shadow:0 1px 1px rgba(0, 0, 0, 0.05)
@@ -4683,7 +4685,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 	border-bottom:1px solid #ddd
 }
 .panel-default {
-	border-color:#ddd
+	border:1px solid #A68D59;
 }
 .panel-default>.panel-heading {
 	color:#333333;
