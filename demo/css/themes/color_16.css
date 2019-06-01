@@ -49,11 +49,10 @@ a:hover, a:active, a:focus { color: #ffffff; }
 #jinrishici-sentence-user li{
         font-size:14px;
         margin-right:1em;
-        font-weight: 300;
-        color:#ffffff
+        font-weight: 400;
+        color:#000000;
     }
 #jinrishici-sentence-user li:nth-child(1){
-	 color:#c45723
 
     }
 

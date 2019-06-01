@@ -111,29 +111,38 @@ www.typeandgrids.com
 			  <div class="projectThumbnail">
 					<svg class="thumbnailMask"></svg>
 				<div class="projectThumbnailHover">
-						<h4>课程：小针绣基本技法</h4>
-						<h5>小针绣纹样绣制方法</h5>
+						<h4>今日诗词</h4>
+						<h5>优雅诗词与你相遇每一天！</h5>
 				</div>
 					
-				<img src="http://ws1.sinaimg.cn/large/bd1043f0ly1g36dxmspeuj20cs07w0td.jpg" alt="Project 01" class="thumbnailImage" />
+				<img src="http://upload-images.jianshu.io/upload_images/8893112-53658a227ea3fa87.jpg" alt="Project 01" class="thumbnailImage" />
 			  </div>
 				
 				<div class="projectInfo">
-					<h4>小针绣纹样绣制方法</h4>
+					<h4>今日诗词</h4>
 					<div class="projectNavCounter"></div>
 					<div class="projectNav">
-						<div class="projectNavEnlarge"><button class="enlargeButton" onClick="window.location.href='projects/project_01/index.html'">》》阅读全文</button></div>
+						<div class="projectNavEnlarge"><button class="enlargeButton" onClick="window.location.href='#'"></button></div>
 						<div class="projectNavClose"><button class="closeButton">关闭</button></div>
 						<div class="projectNavButtons"><button class="prev"></button><button class="next"></button></div>
 					</div>
-					<p>
-						小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法
-					</p>
-					<ul>
-						<li><strong>作 者：</strong> 花渡</li>
-						<li><strong>重 点：</strong> 纹样绘制, 针脚均匀度, 边界处理方法</li>
-						<li><strong>时 间：</strong> 2019.05.12</li>
-					</ul>
+					
+						<div id="jinrishici-sentence-user">正在加载今日诗词....</div>
+
+<script type="text/javascript">
+    jinrishici.load(function(result) {
+        $("#jinrishici-sentence-user").text();
+        $("#jinrishici-sentence-user").html(
+             "<ul>" +
+			        "<li><strong>诗 词：</strong>"+result.data.content+"</li>" +
+			        "<li><strong>名 字：</strong>《"+result.data.origin.title+"》</li>" +
+						"<li><strong>作 者：</strong>"+result.data.origin.author+"</li>" +
+						"<li><strong>朝 代：</strong>"+result.data.origin.dynasty+"</li>" +
+						
+					"</ul>"
+			        );
+    });
+	</script>	
 				</div>
 				
 			</div>
@@ -977,21 +986,7 @@ www.typeandgrids.com
 </div>
 		</div>
 	<footer class="sixteen columns">
-	<div id="jinrishici-sentence-user">正在加载今日诗词....</div>
-
-<script type="text/javascript">
-    jinrishici.load(function(result) {
-        $("#jinrishici-sentence-user").text();
-        $("#jinrishici-sentence-user").html(
-             "<ul>" +
-			    "<li>今日诗词：</li>" +
-			    "<li>"+result.data.content+"</li>" +
-            "<li>"+result.data.origin.author+"("+result.data.origin.dynasty+")《"+result.data.origin.title+"》</li>" +
-           
-            "</ul>"
-        );
-    });
-</script>	
+	
 		<hr />
 		<ul id="footerLinks">
 			<li><a href="#" target="_blank">公號：cizixiu </a></li>
