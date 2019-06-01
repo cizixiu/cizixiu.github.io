@@ -46,3 +46,24 @@ a, a:visited { color: #c45723; }
 a:hover, a:active, a:focus { color: #ffffff; }
 #formField { background: #ded1b5; }
 #formField:focus { background: #e6ddc8; }
+#jinrishici-sentence-user li{
+        font-size:14px;
+        margin-right:1em;
+        font-weight: 300;
+        color:#ffffff
+    }
+#jinrishici-sentence-user li:nth-child(1){
+	 color:#c45723
+
+    }
+
+#jinrishici-sentence-user li:nth-child(2){
+
+    }
+#jinrishici-sentence-user li:nth-child(3){
+
+    }
+#jinrishici-sentence-user li:nth-child(4){
+
+    }
+
