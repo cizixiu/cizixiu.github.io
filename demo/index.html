@@ -48,7 +48,7 @@ www.typeandgrids.com
 <script src="js/libs/jquery.easing.1.3.min.js"></script>
 <script src="js/libs/jquery.fitvids.js"></script>
 <script src="js/script.js"></script>
-<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+
 <style>
 	#tab-content > div{
 		display:none;
@@ -97,7 +97,7 @@ www.typeandgrids.com
 	<div  class="homePage" style="display:block;">
 	
 		<div id="overview" class="sixteen columns">
-			<h3>动态
+			<h3><span id="jinrishici-sentence">正在加载今日诗词....</span>
 
 </h3>
 			<hr />
@@ -128,7 +128,7 @@ www.typeandgrids.com
 					</div>
 					
 						<div id="jinrishici-sentence-user">正在加载今日诗词....</div>
-
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
 <script type="text/javascript">
     jinrishici.load(function(result) {
         $("#jinrishici-sentence-user").text();
