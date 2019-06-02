@@ -1,8 +1,8 @@
 .table .borderTop {
-	border-top:2px solid #fff
+	border-top:2px solid #000
 }
 .table .borderLeft {
-	border-left:2px solid #fff
+	border-left:2px solid #000
 }
 html {
 	padding:0;
@@ -62,7 +62,7 @@ h1 {
 	border-left:none!important
 }
 .table td {
-	border:1px dashed #cccccc;
+	border:1px dashed #ffffff;
 	width:50px;
 	min-height:10px;
 	position:relative
