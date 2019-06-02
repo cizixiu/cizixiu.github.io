@@ -13,48 +13,9 @@
 <title>刺子绣</title>
 </head>
 <body>   
-<h1 id="Hello Sashiko" style="text-align: center; color: rgba(75,75,77,1);"><strong>Hello Sashiko！你好 刺子绣！...</strong></h1>
-<div id="jinrishici-sentence-user">正在加载今日诗词....</div>
-<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-<script type="text/javascript">
-    jinrishici.load(function(result) {
-        $("#jinrishici-sentence-user").text();
-        $("#jinrishici-sentence-user").html(
-            "<ul>" +
-            "<li>"+result.data.origin.dynasty+"</li>" +
-            "<li>"+result.data.origin.author+"</li>" +
-            "<li>"+result.data.origin.title+"</li>" +
-            "<li>"+result.data.content+"</li>" +
-            "</ul>"
-        );
-    });
-</script>
-<style>
-    #jinrishici-sentence-user ul{
-        list-style: none;
-        padding:0;
-        margin:0;
-    }
-    #jinrishici-sentence-user li{
-        display:inline-block;
-        margin-right:1em;
-    }
-    #jinrishici-sentence-user li:nth-child(1){
-        color:#3f597e;
-    }
+<h1 id="Hello Sashiko" style="text-align: center; color: rgba(75,75,77,1);"><strong>你好 刺子绣！...</strong></h1>
 
-    #jinrishici-sentence-user li:nth-child(2){
-        font-weight: bold;
-        color:#74577e;
-    }
-    #jinrishici-sentence-user li:nth-child(3){
-        color:#c16c86;
-    }
-    #jinrishici-sentence-user li:nth-child(4){
-        color:#f97784;
-    }
 
-</style>
 
 
 </body>
