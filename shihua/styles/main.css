@@ -9,8 +9,8 @@ html {
 	margin:0
 }
 body {
-	background-color:#008;
-	color:#ccc;
+	background-color:#BFAC88;
+	color:#ffffff;
 	padding-top:5px;
 	padding-left: 20px;
 	padding-right: 1px;
@@ -62,7 +62,7 @@ h1 {
 	border-left:none!important
 }
 .table td {
-	border:1px dashed #069;
+	border:1px dashed #cccccc;
 	width:50px;
 	min-height:10px;
 	position:relative
@@ -126,5 +126,5 @@ h1 {
 		
 }
 a {
-	color: #F7F0F0;
+	color: #ffffff;
 }
