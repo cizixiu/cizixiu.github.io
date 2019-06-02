@@ -48,7 +48,9 @@ www.typeandgrids.com
 <script src="js/libs/jquery.easing.1.3.min.js"></script>
 <script src="js/libs/jquery.fitvids.js"></script>
 <script src="js/script.js"></script>
-
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<script src="js/shici.js"></script>	
+	
 <style>
 	#tab-content > div{
 		display:none;
@@ -97,9 +99,7 @@ www.typeandgrids.com
 	<div  class="homePage" style="display:block;">
 	
 		<div id="overview" class="sixteen columns">
-			<h3>动态
-
-</h3>
+			<h3><div id="jinrishici-s">正在加载今日诗词....</div></h3>
 			<hr />
 		</div>
 		
@@ -111,39 +111,34 @@ www.typeandgrids.com
 			  <div class="projectThumbnail">
 					<svg class="thumbnailMask"></svg>
 				<div class="projectThumbnailHover">
-						<h4>今日诗词</h4>
-						<h5>优雅诗词与你相遇每一天！</h5>
+						<h4>今日课程</h4>
+						<h5>优雅设计！</h5>
 				</div>
 					
-				<img src="http://upload-images.jianshu.io/upload_images/8893112-53658a227ea3fa87.jpg" alt="Project 01" class="thumbnailImage" />
+				<img src="http://ws1.sinaimg.cn/large/bd1043f0ly1g3h4o0x292j20cs07w0td.jpg" alt="Project 01" class="thumbnailImage" />
 			  </div>
 				
 				<div class="projectInfo">
-					<h4>今日诗词</h4>
+					<h4>优雅设计</h4>
 					<div class="projectNavCounter"></div>
 					<div class="projectNav">
-						<div class="projectNavEnlarge"><button class="enlargeButton" onClick="window.location.href='#'"></button></div>
+						<div class="projectNavEnlarge"><button class="enlargeButton" onClick="window.location.href='#'">》》阅读全文</button></div>
 						<div class="projectNavClose"><button class="closeButton">关闭</button></div>
 						<div class="projectNavButtons"><button class="prev"></button><button class="next"></button></div>
 					</div>
 					
-						<div id="jinrishici-sentence-user">正在加载今日诗词....</div>
-<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-<script type="text/javascript">
-    jinrishici.load(function(result) {
-        $("#jinrishici-sentence-user").text();
-        $("#jinrishici-sentence-user").html(
-             "<ul>" +
-			        "<li><strong>诗 词：</strong>"+result.data.content+"</li>" +
-			"<li><strong>诗 词：</strong>"+result.data.content+"</li>" +
-			        "<li><strong>名 字：</strong>《"+result.data.origin.title+"》</li>" +
-						"<li><strong>作 者：</strong>"+result.data.origin.author+"</li>" +
-						"<li><strong>朝 代：</strong>"+result.data.origin.dynasty+"</li>" +
-						
-					"</ul>"
-			        );
-    });
-	</script>	
+					
+					<p>
+						小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法小针绣纹样绣制方法
+					</p>
+					<ul>
+						<li><strong>作 者：</strong> 花渡</li>
+						<li><strong>重 点：</strong> 纹样绘制, 针脚均匀度, 边界处理方法</li>
+						<li><strong>时 间：</strong> 2019.05.12</li>
+					</ul>
+					
+
+
 				</div>
 				
 			</div>
