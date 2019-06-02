@@ -1,8 +1,8 @@
 .table .borderTop {
-	border-top:2px solid #000
+	border-top:4px solid #f5f1f1
 }
 .table .borderLeft {
-	border-left:2px solid #000
+	border-left:4px solid #f7f5f5
 }
 html {
 	padding:0;
@@ -62,7 +62,7 @@ h1 {
 	border-left:none!important
 }
 .table td {
-	border:1px dashed #ffffff;
+	border:1px dashed #dccaa9;
 	width:50px;
 	min-height:10px;
 	position:relative
@@ -104,11 +104,13 @@ h1 {
 	border:1px solid transparent;
 	border-radius:16px;
 	margin-left:10px
+
 }
 .user-form input {
 	width:280px;
 	padding: 5PX;
 	margin: 5PX;
+
 }
 .user-form .logo {
 	position:absolute;
