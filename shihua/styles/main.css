@@ -75,7 +75,7 @@ h1 {
 .user-form {
 	display:inline-block;
 	position:relative;
-	padding-right:50px
+	padding-right:20px
 }
 #print, .user-form button[type=reset] {
 	cursor:pointer
@@ -107,7 +107,7 @@ h1 {
 
 }
 .user-form input {
-	width:100px;
+	width:120px;
 	padding: 5PX;
 	margin: 5PX;
 
