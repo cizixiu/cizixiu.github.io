@@ -1,6 +1,6 @@
 
     jinrishici.load(function(result) {
-        $("#jinrishici-sentence-user").text();
+        
         $("#jinrishici-sentence-user").html(		
 			
              "<ul>" +
@@ -14,7 +14,7 @@
 			        );
     });
     jinrishici.load(function(result) {
-        $("#jinrishici-s").text("jinrishici");
+        
         $("#jinrishici-s").html(						        
 			"<span>"+result.data.content+"</span>"+
 			"<span>——"+result.data.origin.author+"（"+result.data.origin.dynasty+"）"+"</span>"
