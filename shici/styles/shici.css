@@ -15,17 +15,13 @@ text-align: center;
 text-align: center;
 	line-height: 1.5em;
    font-size: 16px;
-	letter-spacing:2px;	
-	
+	letter-spacing:2px;		
 }
-#jinrishici-sentence-quanwen{
-	
+#jinrishici-sentence-quanwen{	
 	text-align: center;
    z-index: 99999;
 	position: absolute;left:0;top:0;right:0;bottom:0;  
-   margin: auto;    /* 有了这个就自动居中了 */  
-
-    
+   margin: auto;    /* 有了这个就自动居中了 */      
 }/* CSS Document */
 
 
@@ -67,6 +63,11 @@ text-align: center;
 }
 .bgBottom {
     z-index: 5;
+	opacity: 0.5;
+}
+.bgBottom {
+    z-index: 2;
+	opacity: 0.75;
 }
 .wave {
     position: absolute;
@@ -81,7 +82,7 @@ text-align: center;
     background-size: 50% 100px;
 }
 .waveAnimation .waveTop {
-  animation: move-wave 3s;
+  animation: move-wave 1s;
    -webkit-animation: move-wave 3s;
    -webkit-animation-delay: 1s;
    animation-delay: 1s;
@@ -95,7 +96,13 @@ text-align: center;
 .waveBottom {
     background-size: 50% 100px;
 }
-.waveAnimation .waveBottom {
-    animation: move_wave 15s linear infinite;
-}
 
+.waveAnimation .waveBottom {
+    animation: move_wave 18s linear infinite;
+}
+.waveBottom2 {
+    background-size: 50% 90px;
+}
+.waveAnimation .waveBottom2 {
+    animation: move_wave 8s linear infinite;
+}

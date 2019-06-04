@@ -24,38 +24,20 @@
 </head>
 
 <body >
-<script type="text/javascript">	
-		window.onload = function(){
-		changeColor();
-		}
-		function changeColor(){
-		var colorList = ["#3d3b4f","#75664d","#a78e44","#ae7000","#b35c44","#a88462","#845a33","#21a675","#057748","#789262","#50616d","#41555d","#db5a6b","#a98175","#9d2933","#1685a9","#065279","#003472","#2e4e7e","#4a4266","#426666","#815463","#003371","#56004f","#c93756","#cb3a56","#161823","#5d513c","#549688","#d9b611","#0aa344"];
-		for(var i=0;i<colorList.length;i++){
-		var bgColor = getColorByRandom(colorList);
-		}
-		function getColorByRandom(colorList){
-		var colorIndex = Math.floor(Math.random()*colorList.length);
-		var color = colorList[colorIndex];
-		colorList.splice(colorIndex,1);
-		return color;
-		}
-			document.body.bgColor =bgColor;
-		}	
-</script>
-
-
-	<div  id="jinrishici-sentence-quanwen" >正在加载今日诗词....</div>
-	
+<script src="js/changecolor.js"></script>
+<div  id="jinrishici-sentence-quanwen" >正在加载今日诗词....</div>
 <div class="waveWrapper waveAnimation">
 	<div class="waveWrapperInner bgTop">
 		<div class="wave waveTop" style="background-image: url('img/wave-top.png')"></div>
-
 	</div>
 	<div class="waveWrapperInner bgMiddle">
 		<div class="wave waveMiddle" style="background-image: url('img/wave-mid.png')"></div>
 	</div>
 	<div class="waveWrapperInner bgBottom">
 		<div class="wave waveBottom" style="background-image: url('img/wave-bot.png')"></div>
+	</div>
+	<div class="waveWrapperInner bgBottom2">
+		<div class="wave waveBottom2" style="background-image: url('img/wave-top.png')"></div>
 	</div>
 </div>
 
