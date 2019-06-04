@@ -52,6 +52,7 @@ text-align: center;
     height: 100%;
     bottom: -1px;
    /* background-image: linear-gradient(to top, #C7B897 20%, #C7B897 80%);*/
+	
 }
 .bgTop {
     z-index: 15;

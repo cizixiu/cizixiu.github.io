@@ -12,5 +12,6 @@
 		colorList.splice(colorIndex,1);
 		return color;
 		}
-			document.body.bgColor =bgColor;
+			/*document.body.bgColor =bgColor;*/
+		document.getElementById('cb').style.background=bgColor;
 		}	// JavaScript Document
