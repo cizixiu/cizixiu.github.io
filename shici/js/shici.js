@@ -24,20 +24,20 @@ jinrishici.load(function(result) {
     jinrishici.load(function(result) {
         
         $("#jinrishici-sentence-quanwen").html(		
-			"<p class='s-title'>《"+result.data.origin.title+"》</p>" +
-			"<p class='s-author'>"+result.data.origin.author+"（"+result.data.origin.dynasty+"）" +"</p>" +
+			"<p class='s-title'>"+result.data.origin.title+"</p>" +
+			"<p class='s-author'>"+result.data.origin.author+" "+result.data.origin.dynasty+" " +"</p>" +
 			
 			"<p class='s-content'>"+result.data.origin.content+"</p>" 
 			        );
 	 var break_line=document.getElementById("jinrishici-sentence-quanwen");
 	 var content=break_line.innerHTML;
-	 break_line.innerHTML=content.replace(/。/g,"。<br>");  
+	 break_line.innerHTML=content.replace(/。/g,"<br>");  
 	 var content=break_line.innerHTML;
 	 break_line.innerHTML=content.replace(/,/g,""); 
 	 var content=break_line.innerHTML;
-	 break_line.innerHTML=content.replace(/！/g,"！<br>");
+	 break_line.innerHTML=content.replace(/！/g,"<br>");
 	 var content=break_line.innerHTML;
-	 break_line.innerHTML=content.replace(/？/g,"？<br>");
+	 break_line.innerHTML=content.replace(/？/g,"<br>");
    	var content=break_line.innerHTML;
-	 break_line.innerHTML=content.replace(/，/g,"，<br>");
+	 break_line.innerHTML=content.replace(/，/g,"<br>");
     });
