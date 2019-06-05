@@ -25,7 +25,7 @@ jinrishici.load(function(result) {
         
         $("#jinrishici-sentence-quanwen").html(		
 			"<p class='s-title'>"+result.data.origin.title+"</p>" +
-			"<p class='s-author'>"+result.data.origin.dynasty+"&nbsp&nbsp   "+result.data.origin.author+" " +"</p>" +
+			"<p class='s-author'>"+result.data.origin.dynasty+"·"+result.data.origin.author+" " +"</p>" +
 			
 			"<p class='s-content'>"+result.data.origin.content+"</p>" 
 			        );
