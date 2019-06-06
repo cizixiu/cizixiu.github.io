@@ -139,7 +139,7 @@ color: #ffffff;
     transform-origin: center bottom;
 }
 .waveTop {
-    background-size: 960px 90px;
+    background-size: 960px 80px;
 }
 
 .waveAnimation .waveTop {
