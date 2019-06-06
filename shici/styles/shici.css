@@ -109,14 +109,14 @@ padding-top: 60px;
     z-index: 5;
 	opacity: 0.5;
 }
-.bgBottom {
+.bgBottom2 {
     z-index: 2;
 	opacity: 0.75;
 }
 .wave {
     position: absolute;
     left: 0;
-    width: 300%;
+    width: 400%;
     height: 100%;
     background-repeat: repeat no-repeat;
     background-position: 0 bottom;
