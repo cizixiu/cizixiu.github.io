@@ -35,6 +35,8 @@ jinrishici.load(function(result) {
 	 var content=break_line.innerHTML;
 	 break_line.innerHTML=content.replace(/,/g,""); 
 	 var content=break_line.innerHTML;
+        break_line.innerHTML=content.replace(/、/g,"<br>"); 
+	 var content=break_line.innerHTML;
 	 break_line.innerHTML=content.replace(/！/g,"<br>");
 	 var content=break_line.innerHTML;
 	 break_line.innerHTML=content.replace(/？/g,"<br>");
