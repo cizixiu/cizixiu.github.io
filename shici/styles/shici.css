@@ -40,18 +40,22 @@ text-align: center;
   writing-mode:tb-rl;  
   -webkit-writing-mode:vertical-rl;
 }
+#jinrishici-sentence-quanwen{	
+
+    letter-spacing:4px;	
+        }
 .s-content {
     width:80%;
     margin: auto; 
     text-align:left;
     } 
 .s-title{text-align:left;
-padding-top:33px;
+padding-top:20px;
 
 }
 .s-author{
 text-align:left;
-padding-top: 63px;
+padding-top: 60px;
 }
     }
 @media all and (orientation : portrait){ 
