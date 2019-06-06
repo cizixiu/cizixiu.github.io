@@ -126,10 +126,10 @@ padding-top: 60px;
     background-size: 100% 100px;
 }
 .waveAnimation .waveTop {
-  animation: move-wave 1s;
-   -webkit-animation: move-wave 3s;
-   -webkit-animation-delay: 1s;
-   animation-delay: 1s;
+  animation: move-wave 10s;
+   -webkit-animation: move-wave 10s;
+   -webkit-animation-delay: 10s;
+   animation-delay: 10s;
 }
 .waveMiddle {
     background-size: 100% 120px;
