@@ -152,11 +152,11 @@ color: #ffffff;
     background-size: 960px 120px;
 }
 .waveAnimation .waveMiddle {
-    animation: move_wave 20s linear infinite;
+    animation: move_wave 25s linear infinite;
 }
 .waveBottom {
     background-size: 960px 100px;
 }
 .waveAnimation .waveBottom {
-    animation: move_wave 25s linear infinite;
+    animation: move_wave 30s linear infinite;
 }
