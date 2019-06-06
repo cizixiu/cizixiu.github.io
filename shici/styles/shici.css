@@ -139,7 +139,7 @@ color: #ffffff;
     transform-origin: center bottom;
 }
 .waveTop {
-    background-size: 960px 80px;
+    background-size: 960px 70px;
 }
 
 .waveAnimation .waveTop {
@@ -149,13 +149,13 @@ color: #ffffff;
    animation-delay: 1s;
 }
 .waveMiddle {
-    background-size: 960px 120px;
+    background-size: 960px 100px;
 }
 .waveAnimation .waveMiddle {
     animation: move_wave 25s linear infinite;
 }
 .waveBottom {
-    background-size: 960px 100px;
+    background-size: 960px 80px;
 }
 .waveAnimation .waveBottom {
     animation: move_wave 30s linear infinite;
