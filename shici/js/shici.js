@@ -41,11 +41,17 @@ jinrishici.load(function(result) {
    	 var content=break_line.innerHTML;
 	 break_line.innerHTML=content.replace(/，/g,"<br>");
      var content=break_line.innerHTML;
-	 break_line.innerHTML=content.replace(/代/g,"");
-     var content=break_line.innerHTML;
-	 break_line.innerHTML=content.replace(/五/g,"五代");
-     var content=break_line.innerHTML;
-	 break_line.innerHTML=content.replace(/近/g,"近代");
-     var content=break_line.innerHTML;
-	 break_line.innerHTML=content.replace(/现/g,"现代");
+	 break_line.innerHTML=content.replace(/唐代/g,"唐");
+             var content=break_line.innerHTML;
+	 break_line.innerHTML=content.replace(/宋代/g,"宋");
+             var content=break_line.innerHTML;
+	 break_line.innerHTML=content.replace(/元代/g,"元");     
+        var content=break_line.innerHTML;
+	 break_line.innerHTML=content.replace(/明代/g,"明");     
+        var content=break_line.innerHTML;
+	 break_line.innerHTML=content.replace(/清代/g,"清");     
+        var content=break_line.innerHTML;
+	 break_line.innerHTML=content.replace(/晋代/g,"晋");     
+  
+
     });
