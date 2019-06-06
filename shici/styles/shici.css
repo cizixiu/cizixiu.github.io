@@ -17,7 +17,7 @@ text-align: center;
    font-size: 16px;
 		
 	height:70%;
-	overflow-x: hidden;
+	overflow-x: scroll;
    overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
    overflow: -moz-scrollbars-none;
@@ -35,6 +35,30 @@ text-align: center;
 
 }/* CSS Document */
 
+@media all and (orientation : landscape){ 
+.sp{
+  writing-mode:tb-rl;  
+  -webkit-writing-mode:vertical-rl;
+}
+.s-content {
+    width:80%;
+    margin: auto; 
+    text-align:left;
+    } 
+.s-title{text-align:left;
+padding-top:33px;
+
+}
+.s-author{
+text-align:left;
+padding-top: 63px;
+}
+    }
+@media all and (orientation : portrait){ 
+.sp{
+
+}
+} 
 
 @keyframes move_wave {
     0% {
