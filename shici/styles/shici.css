@@ -10,13 +10,13 @@ color: #ffffff;
 	font-size:20px;
 	margin-top: 30px;
 	font-weight: 400;
-text-align: center;
+
 }
 .s-author{
-text-align: center;
+
 }
 .s-content {
-text-align: center;
+
 	line-height: 1.6em;
    font-size: 16px;
 		
@@ -39,7 +39,7 @@ text-align: center;
 
 }/* CSS Document */
 
-@media all and (orientation : landscape){ 
+@media all and (orientation : landscape){ /* 横屏的样式 */
 .sp{
   writing-mode:tb-rl;  
   -webkit-writing-mode:vertical-rl;
@@ -49,24 +49,39 @@ text-align: center;
     letter-spacing:4px;	
         }
 .s-content {
-    width:80%;
+    width:75%;
     margin: auto; 
     text-align:left;
-    margin-top: 60px;
+    margin-top: 50px;
     } 
-.s-title{text-align:left;
-padding-top:30px;
+.s-title{
+    text-align:left;
+    padding-top:20px;
     margin-left: 15px;
-
+    padding-right: 15px;
 }
 .s-author{
-text-align:left;
-padding-top: 60px;
+    text-align:left;
+    padding-top: 50px;
 }
     }
-@media all and (orientation : portrait){ 
-.sp{
 
+@media all and (orientation : portrait){ /* 竖屏的样式 */
+ .s-content {
+    text-align:left;
+    margin-left: 15%;
+    margin-right: 10%;  
+    }  
+.s-title{
+    text-align:left;
+    margin-left: 15%;
+    margin-right: 10%;   
+}
+.s-author{
+    text-align:left;
+    margin-left: 15%;
+    margin-right: 10%;
+    
 }
 } 
 
