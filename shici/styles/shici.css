@@ -6,38 +6,38 @@ body{
 color: #ffffff;
 /*background: #86960F;*/
 }
+#jinrishici-sentence-quanwen{	
+	text-align: center;   
+    z-index: 99999;
+	position: absolute;left:0;top:0;right:0;bottom:0;  
+    margin: auto;    /* 有了这个就自动居中了 */ 
+
+}/* CSS Document */
 .s-title{
 	font-size:20px;
 	margin-top: 30px;
 	font-weight: 400;
+
 
 }
 .s-author{
 
 }
 .s-content {
-
-	line-height: 1.6em;
-   font-size: 16px;
-		
+	
+	line-height: 1.4em;
+    font-size: 16px;	
 	height:68%;
 	overflow-x: scroll;
-   overflow-y: scroll;
+    overflow-y: scroll;
 	-webkit-overflow-scrolling: touch;
-   overflow: -moz-scrollbars-none;
-   overflow: -moz-scrollbars-none;
+    overflow: -moz-scrollbars-none;
+    overflow: -moz-scrollbars-none;
 }
 .s-content::-webkit-scrollbar{
     display: none;
 }
-#jinrishici-sentence-quanwen{	
-	text-align: center;
-    letter-spacing:3px;	
-   z-index: 99999;
-	position: absolute;left:0;top:0;right:0;bottom:0;  
-   margin: auto;    /* 有了这个就自动居中了 */ 
 
-}/* CSS Document */
 
 @media all and (orientation : landscape){ /* 横屏的样式 */
 .sp{
@@ -67,22 +67,15 @@ color: #ffffff;
     }
 
 @media all and (orientation : portrait){ /* 竖屏的样式 */
-/* .s-content {
-    text-align:left;
-    margin-left: 15%;
-    margin-right: 10%;  
+ .s-content {
+     letter-spacing:2px;
     }  
 .s-title{
-    text-align:left;
-    margin-left: 15%;
-    margin-right: 10%;   
+     letter-spacing:3px;	
 }
 .s-author{
-    text-align:left;
-    margin-left: 15%;
-    margin-right: 10%;
-    
-}*/
+    letter-spacing:3px;	 
+}
 } 
 
 @keyframes move_wave {
