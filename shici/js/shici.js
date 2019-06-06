@@ -42,4 +42,8 @@ jinrishici.load(function(result) {
 	 break_line.innerHTML=content.replace(/，/g,"<br>");
         var content=break_line.innerHTML;
 	 break_line.innerHTML=content.replace(/代/g,"");
+             var content=break_line.innerHTML;
+	 break_line.innerHTML=content.replace(/五/g,"五代");
+             var content=break_line.innerHTML;
+	 break_line.innerHTML=content.replace(/近/g,"近代");
     });
