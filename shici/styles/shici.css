@@ -116,8 +116,8 @@ color: #ffffff;
 	
 }
 .bgTop {
-    z-index: 15;
-    opacity: 0.5;
+    z-index: 4;
+    opacity: 0.4;
 }
 .bgMiddle {
     z-index: 10;
@@ -127,10 +127,7 @@ color: #ffffff;
     z-index: 5;
 	opacity: 0.5;
 }
-.bgBottom2 {
-    z-index: 2;
-	opacity: 0.3;
-}
+
 .wave {
     position: absolute;
     left: 0;
@@ -141,7 +138,7 @@ color: #ffffff;
     transform-origin: center bottom;
 }
 .waveTop {
-    background-size: 100% 100px;
+    background-size: 50% 90px;
 }
 
 .waveAnimation .waveTop {
