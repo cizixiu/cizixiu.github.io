@@ -4,7 +4,7 @@ jinrishici.load(function(result) {
 			"<p class='s-title'>"+result.data.origin.title+"</p>" +
 			"<p class='s-author'>"+result.data.origin.dynasty+"·"+result.data.origin.author+" " +"</p>" +
 			
-			"<p class='s-content'>"+result.data.origin.content+"</p>" 
+			"<p class='s-content'>"+result.data.content+"</p>" 
 			        );
 	 var break_line=document.getElementById("jinrishici-sentence-quanwen");
 	 var content=break_line.innerHTML;
