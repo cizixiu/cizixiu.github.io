@@ -14,19 +14,16 @@ color: #ffffff;
 
 }/* CSS Document */
 .s-title{
-	font-size:20px;
+	font-size:26px;
 	margin-top: 30px;
-	font-weight: 400;
-
-
+	font-weight: 500;
 }
 .s-author{
-
+font-size:16px;
 }
 .s-content {
-	
-	line-height: 1.4em;
-    font-size: 16px;	
+	line-height: 1.8em;
+    font-size: 22px;	
 	height:68%;
 	overflow-x: scroll;
     overflow-y: scroll;
@@ -37,7 +34,6 @@ color: #ffffff;
 .s-content::-webkit-scrollbar{
     display: none;
 }
-
 
 @media all and (orientation : landscape){ /* 横屏的样式 */
 .sp{
@@ -57,7 +53,6 @@ color: #ffffff;
 .s-title{
     text-align:left;
     padding-top:20px;
-    padding-bottom: 40px;
     margin-left: 15px;
     padding-right: 15px;
 }
@@ -69,13 +64,13 @@ color: #ffffff;
 
 @media all and (orientation : portrait){ /* 竖屏的样式 */
  .s-content {
-     letter-spacing:2px;
+     letter-spacing:4px;
     }  
 .s-title{
-     letter-spacing:3px;	
+     letter-spacing:2px;	
 }
 .s-author{
-    letter-spacing:3px;	 
+    letter-spacing:2px;	 
 }
 } 
 
@@ -153,4 +148,5 @@ color: #ffffff;
 }
 .waveAnimation .waveBottom {
     animation: move_wave 30s linear infinite;
-}
+}/* CSS Document */
+
