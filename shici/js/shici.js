@@ -38,4 +38,3 @@ jinrishici.load(function(result) {
     });
 
 
-

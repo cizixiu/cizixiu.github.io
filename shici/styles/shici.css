@@ -17,14 +17,10 @@ color: #ffffff;
 	font-size:20px;
 	margin-top: 30px;
 	font-weight: 400;
-
-
 }
 .s-author{
-
 }
-.s-content {
-	
+.s-content{	
 	line-height: 1.4em;
     font-size: 16px;	
 	height:68%;
@@ -37,7 +33,27 @@ color: #ffffff;
 .s-content::-webkit-scrollbar{
     display: none;
 }
-
+.s-title-juzi{
+	font-size:22px;
+	margin-top: 30px;
+	font-weight: 500;
+}
+.s-author-juzi{
+font-size:16px;
+}
+.s-content-juzi {
+	line-height: 1.8em;
+    font-size: 18px;	
+	height:68%;
+	overflow-x: scroll;
+    overflow-y: scroll;
+	-webkit-overflow-scrolling: touch;
+    overflow: -moz-scrollbars-none;
+    overflow: -moz-scrollbars-none;
+}
+.s-content-juzi::-webkit-scrollbar{
+    display: none;
+}
 
 @media all and (orientation : landscape){ /* 横屏的样式 */
 .sp{
@@ -65,6 +81,22 @@ color: #ffffff;
     text-align:left;
     padding-top: 50px;
 }
+.s-content-juzi {
+    width:75%;
+    margin: auto; 
+    text-align:left;
+    margin-top: 50px;
+    } 
+.s-title-juzi{
+    text-align:left;
+    padding-top:20px;
+    margin-left: 15px;
+    padding-right: 15px;
+}
+.s-author-juzi{
+    text-align:left;
+    padding-top: 50px;
+}
     }
 
 @media all and (orientation : portrait){ /* 竖屏的样式 */
@@ -76,6 +108,15 @@ color: #ffffff;
 }
 .s-author{
     letter-spacing:3px;	 
+}
+.s-content-juzi {
+     letter-spacing:4px;
+    }  
+.s-title-juzi{
+     letter-spacing:2px;	
+}
+.s-author-juzi{
+    letter-spacing:2px;	 
 }
 } 
 

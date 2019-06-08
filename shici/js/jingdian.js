@@ -1,10 +1,10 @@
 jinrishici.load(function(result) {
       
         $("#jinrishici-sentence-quanwen").html(		
-			"<p class='s-title'>"+result.data.origin.title+"</p>" +
-			"<p class='s-author'>"+result.data.origin.dynasty+"·"+result.data.origin.author+" " +"</p>" +
+			"<p class='s-title-juzi'>"+result.data.origin.title+"</p>" +
+			"<p class='s-author-juzi'>"+result.data.origin.dynasty+"·"+result.data.origin.author+" " +"</p>" +
 			
-			"<p class='s-content'>"+result.data.content+"</p>" 
+			"<p class='s-content-juzi'>"+result.data.content+"</p>" 
 			        );
 	 var break_line=document.getElementById("jinrishici-sentence-quanwen");
 	 var content=break_line.innerHTML;
