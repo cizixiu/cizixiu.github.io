@@ -1,0 +1,235 @@
+@media screen and (max-device-width:320px) {
+	body {
+		-webkit-text-size-adjust: none
+	}
+}
+
+@media screen and (max-device-width:480px) {
+	body {
+		-webkit-text-size-adjust: none
+	}
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio:2) {
+	body {
+		-webkit-text-size-adjust: none
+	}
+}
+
+@media only screen and (min-device-width:768px) and (max-device-width:1024px) {
+	body {
+		-webkit-text-size-adjust: none
+	}
+}
+
+body {
+	color: #fff
+}
+
+#jinrishici-sentence-quanwen {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 99999;
+	margin: auto;
+	text-align: center;
+	letter-spacing: 5px
+}
+
+.s-title {
+	margin-top: 30px;
+	font-weight: 500;
+	font-size: 22px
+}
+
+.s-author {
+	font-size: 1pc
+}
+
+.s-content {
+	overflow: -moz-scrollbars-none;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	height: 68%;
+	font-size: 18px;
+	line-height: 1.6em;
+	-webkit-overflow-scrolling: touch
+}
+
+.s-content::-webkit-scrollbar {
+	display: none
+}
+
+.s-title-juzi {
+	margin-top: 30px;
+	font-weight: 500;
+	font-size: 22px
+}
+
+.s-author-juzi {
+	font-size: 1pc
+}
+
+.s-content-juzi {
+	overflow: -moz-scrollbars-none;
+	overflow-x: scroll;
+	overflow-y: scroll;
+	height: 68%;
+	font-size: 18px;
+	line-height: 1.6em;
+	-webkit-overflow-scrolling: touch
+}
+
+.s-content-juzi::-webkit-scrollbar {
+	display: none
+}
+
+@media all and (orientation:landscape) {
+	.sp {
+		writing-mode: tb-rl;
+		-webkit-writing-mode: vertical-rl
+	}
+
+	#jinrishici-sentence-quanwen {
+		letter-spacing: 5px
+	}
+
+	.s-content {
+		margin: auto;
+		margin-top: 40px;
+		width: 75%;
+		text-align: left
+	}
+
+	.s-title {
+		margin-left: 15px;
+		padding-top: 9px;
+		padding-right: 15px;
+		padding-bottom: 40px;
+		text-align: left
+	}
+
+	.s-author {
+		padding-top: 40px;
+		text-align: left
+	}
+
+	.s-content-juzi {
+		margin: auto;
+		margin-top: 40px;
+		width: 75%;
+		text-align: left
+	}
+
+	.s-title-juzi {
+		margin-left: 15px;
+		padding-top: 9px;
+		padding-right: 15px;
+		text-align: left
+	}
+
+	.s-author-juzi {
+		padding-top: 40px;
+		text-align: left
+	}
+}
+
+@media all and (orientation:portrait) {
+	.s-author,.s-content,.s-title {
+		letter-spacing: 2px
+	}
+
+	.s-content-juzi {
+		letter-spacing: 4px
+	}
+
+	.s-author-juzi,.s-title-juzi {
+		letter-spacing: 2px
+	}
+}
+
+@keyframes move_wave {
+	0% {
+		transform: translateX(0) translateZ(0) scaleY(1)
+	}
+
+	50% {
+		transform: translateX(-25%) translateZ(0) scaleY(.55)
+	}
+
+	to {
+		transform: translateX(-50%) translateZ(0) scaleY(1)
+	}
+}
+
+.waveWrapper {
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto
+}
+
+.waveWrapper,.waveWrapperInner {
+	position: absolute;
+	overflow: hidden
+}
+
+.waveWrapperInner {
+	bottom: -1px;
+	width: 100%;
+	height: 100%
+}
+
+.bgTop {
+	z-index: 4;
+	opacity: .4
+}
+
+.bgMiddle {
+	z-index: 10;
+	opacity: .65
+}
+
+.bgBottom {
+	z-index: 5;
+	opacity: .5
+}
+
+.wave {
+	position: absolute;
+	left: 0;
+	width: 40in;
+	height: 100%;
+	background-position: 0 bottom;
+	background-repeat: repeat no-repeat;
+	transform-origin: center bottom
+}
+
+.waveTop {
+	background-size: 60pc 70px
+}
+
+.waveAnimation .waveTop {
+	animation: move-wave 3s;
+	-webkit-animation: move-wave 3s;
+	animation-delay: 1s
+}
+
+.waveMiddle {
+	background-size: 60pc 75pt
+}
+
+.waveAnimation .waveMiddle {
+	animation: move_wave 25s linear infinite
+}
+
+.waveBottom {
+	background-size: 60pc 5pc
+}
+
+.waveAnimation .waveBottom {
+	animation: move_wave 30s linear infinite
+}
