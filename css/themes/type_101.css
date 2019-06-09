@@ -19,16 +19,48 @@ Contents
 /*===================================================================================================
 1) @font-face definitions
 ===================================================================================================*/
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('../../demo/fonts/ProximaNova/ProximaNova-Reg-webfont.eot');
+    src: url('../../demo/fonts/ProximaNova/ProximaNova-Reg-webfont.eot?iefix') format('eot'),
+url('../../demo/fonts/ProximaNova/ProximaNova-Reg-webfont.woff') format('woff'),
+url('../../demo/fonts/ProximaNova/ProximaNova-Reg-webfont.ttf') format('truetype'),
+url('../../demo/fonts/ProximaNova/ProximaNova-Reg-webfont.svg#webfonttLdMzI8n') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 
 @font-face {
-	font-family: 'LeagueGothicRegular';
-	src: url('../../fonts/LeagueGothic/League_Gothic-webfont.eot');
-	src: url('../../fonts/LeagueGothic/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../../fonts/LeagueGothic/League_Gothic-webfont.woff') format('woff'),
-		url('../../fonts/LeagueGothic/League_Gothic-webfont.ttf') format('truetype'),
-		url('../../fonts/LeagueGothic/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'ProximaNova';
+    src: url('../../demo/fonts/ProximaNova/ProximaNova-Bold-webfont.eot');
+    src: url('../../demo/fonts/ProximaNova/ProximaNova-Bold-webfont.eot?iefix') format('eot'),
+url('../../demo/fonts/ProximaNova/ProximaNova-Bold-webfont.woff') format('woff'),
+url('../../demo/fonts/ProximaNova/ProximaNova-Bold-webfont.ttf') format('truetype'),
+url('../../demo/fonts/ProximaNova/ProximaNova-Bold-webfont.svg#webfontgrewrCss') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grad';
+    src: url('../../demo/fonts/Grad/Grad-Regular-webfont.eot');
+    src: url('../../demo/fonts/Grad/Grad-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+url('../../demo/fonts/Grad/Grad-Regular-webfont.woff') format('woff'),
+url('../../demo/fonts/Grad/Grad-Regular-webfont.ttf') format('truetype'),
+url('../../demo/fonts/Grad/Grad-Regular-webfont.svg#Grad') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Grad';
+    src: url('../../demo/fonts/Grad/Grad-Bold-webfont.eot');
+    src: url('../../demo/fonts/Grad/Grad-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+url('../../demo/fonts/Grad/Grad-Bold-webfont.woff') format('woff'),
+url('../../demo/fonts/Grad/Grad-Bold-webfont.ttf') format('truetype'),
+url('../../demo/fonts/Grad/Grad-Bold-webfont.svg#Grad') format('svg');
+    font-weight: bold;
+    font-style: normal;
 }
 
 /*===================================================================================================
@@ -36,127 +68,127 @@ Contents
 ===================================================================================================*/
 
 #logo h1, #logoDetailView h1 {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-family: "Grad", Arial, sans-serif;
+	font-weight: bold;
     font-style: normal;
-	font-size: 42px;
+	font-size: 36px;
 	line-height: 1.5;
-	letter-spacing: 0;
+	letter-spacing: -0.07em;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: none;
 	text-rendering: optimizeLegibility;
 }
 
 #logo h2, #logoDetailView h2 {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ProximaNova", Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.2;
 	letter-spacing: 0;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: none;
 	text-rendering: auto;
 }
 
 nav ul li a, nav ul li button, nav ul li span, #detailViewBack a {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ProximaNova", Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.5;
 	letter-spacing: 0;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: none;
 	text-rendering: auto;
 }
 
 #overview h3 {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Grad", Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 52px;
-	line-height: 1.1;
-	letter-spacing: 0;
+	font-size: 42px;
+	line-height: 1.2;
+	letter-spacing: -0.04em;
 	text-decoration: none;
 	text-transform: none;
 	text-rendering: optimizeLegibility;
 }
 
 .projectThumbnailHover h4 {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Grad", Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
 	font-size: 24px;
 	line-height: 1.2;
 	letter-spacing: 0;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: none;
 	text-rendering: auto;
 }
 
 .projectThumbnailHover h5 {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ProximaNova", Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.2;
 	letter-spacing: 0;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: none;
 	text-rendering: auto;
 }
 
 .projectInfo h4 {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-family: "ProximaNova", Arial, sans-serif;
+	font-weight: bold;
     font-style: normal;
-	font-size: 18px;
+	font-size: 14px;
 	line-height: 1.2;
 	letter-spacing: 0;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: none;
 	text-rendering: auto;
 }
 
 .projectNavCounter {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ProximaNova", Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 16px;
+	font-size: 13px;
 	line-height: 1.2;
 	letter-spacing: 0;
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: none;
 	text-rendering: auto;
 }
 
 .projectNavButtons button {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-family: "ProximaNova", Arial, sans-serif;
+	font-weight: bold;
     font-style: normal;
-	font-size: 16px;
+	font-size: 11px;
 	line-height: 1.2;
-	letter-spacing: 0;
+	letter-spacing: 0.1em;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-rendering: auto;
 }
 
 .projectNavClose button, .projectNavEnlarge button {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-family: "ProximaNova", Arial, sans-serif;
+	font-weight: bold;
     font-style: normal;
-	font-size: 16px;
+	font-size: 11px;
 	line-height: 1.2;
-	letter-spacing: 0;
+	letter-spacing: 0.1em;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-rendering: auto;
 }
 
 p, li, .projectInfo p, .projectInfo li {
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ProximaNova", Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
 	font-size: 14px;
@@ -168,10 +200,22 @@ p, li, .projectInfo p, .projectInfo li {
 }
 
 footer p {
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ProximaNova", Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 12px;
+	font-size: 14px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: none;
+	text-rendering: auto;
+}
+
+#footerLinks li {
+	font-family: "ProximaNova", Arial, sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	font-size: 14px;
 	line-height: 1.2;
 	letter-spacing: 0;
 	text-decoration: none;
@@ -180,9 +224,9 @@ footer p {
 }
 
 blockquote, blockquote p {
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ProximaNova", Arial, sans-serif;
 	font-weight: normal;
-    font-style: italic;
+    font-style: normal;
 	font-size: 14px;
 	line-height: 1.4;
 	letter-spacing: 0;
@@ -192,7 +236,7 @@ blockquote, blockquote p {
 }
 
 blockquote cite {
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ProximaNova", Arial, sans-serif;
 	font-weight: bold;
     font-style: normal;
 	font-size: 14px;
@@ -204,26 +248,26 @@ blockquote cite {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: normal;
-	letter-spacing: -0.03em;
-	text-transform: uppercase;
+	font-family: "Grad", Arial, sans-serif;
+	font-weight: bold;
+	letter-spacing: -0.02em;
+	text-transform: none;
 }
 
 #heroNav a {
-	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: normal;
+	font-family: "ProximaNova", Arial, sans-serif;
+	font-weight: bold;
     font-style: normal;
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.2;
 	letter-spacing: 0;
 	text-decoration: underline;
-	text-transform: uppercase;
+	text-transform: none;
 	text-rendering: auto;
 }
 
 #formField {
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ProximaNova", Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
 	font-size: 14px;
@@ -235,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #formSubmit {
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "ProximaNova", Arial, sans-serif;
 	font-weight: bold;
     font-style: normal;
 	font-size: 12px;
@@ -246,24 +290,26 @@ h1, h2, h3, h4, h5, h6 {
 	text-rendering: auto;
 }
 
+h5 {
+	font-weight: bold;
+	padding-bottom: 8px;
+	font-size: 12px;
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+}
+
 /*===================================================================================================
 3) Positioning adjustments
 ===================================================================================================*/
 
 #logo h2, #logoDetailView h2 {
-	margin-top: -26px;
+	margin-top: -20px;
 	padding-left: 1px;
 }
 
 nav {
-	padding-top: 49px;
+	padding-top: 46px;
 	margin-bottom: -30px;
-}
-
-@-moz-document url-prefix() {
-	nav {
-		padding-top: 47px;
-	}
 }
 
 nav ul li {
@@ -275,8 +321,8 @@ nav ul li {
 }
 
 #overview h3 {
-	margin-top: -5px;
-	margin-bottom: 23px;
+	margin-top: -7px;
+	margin-bottom: 22px;
 }
 
 .projectThumbnailHover h4 {
@@ -284,32 +330,32 @@ nav ul li {
 }
 
 .projectThumbnailHover h5 {
-	padding-top: 66px;
+	padding-top: 69px;
 }
 
 .projectInfo h4 {
-	padding-top: 9px;
+	padding-top: 11px;
 	padding-bottom: 6px;
 }
 
 .projectNavCounter {
-	padding-top: 11px;
+	padding-top: 12px;
 }
 
 .projectNavClose, .projectNavEnlarge {
-	padding-top: 2px;
-	padding-top: 4px\9; /* IE adjustment */
+	padding-top: 5px;
+	padding-top: 7px\9; /* IE adjustment */
 }
 
 .projectNavButtons {
-	padding-top: 2px;
-	padding-top: 4px\9; /* IE adjustment */
+	padding-top: 5px;
+	padding-top: 7px\9; /* IE adjustment */
 }
 
 /* Tweak positioning slightly in Firefox */
 @-moz-document url-prefix() {
   .projectNavEnlarge, .projectNavClose, .projectNavButtons {
-		padding-top: 4px;
+		padding-top: 6px;
 	}
 }
 
@@ -325,13 +371,19 @@ nav ul li {
 .projectInfo li, .linedList li {
 	border-top: 1px solid #ddd;
 	margin-top: 6px;
-	margin-bottom: -1px;
+	margin-bottom: -2px;
 	padding-top: 6px;
 	padding-bottom: 0px;
 }
 
+@-moz-document url-prefix() {
+	.projectInfo li, .linedList li {
+		margin-bottom: -2px;
+	}
+}
+
 .projectInfo li:last-child {
-	margin-bottom: -2px;
+	margin-bottom: -3px;
 }
 
 .linedList {
@@ -349,13 +401,11 @@ nav ul li {
 		}
 		
 		nav {
-			padding-top: 49px;
+			padding-top: 44px;
 		}
 		
-		@-moz-document url-prefix() {
-			nav {
-				padding-top: 47px;
-			}
+		#overview h3 {
+			font-size: 38px;
 		}
 		
 	}
@@ -364,12 +414,12 @@ nav ul li {
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 		
 		.projectThumbnailHover h4 {
-			font-size: 24px;
+			font-size: 18px;
 		}
 		
 		.projectThumbnailHover h5 {
-			font-size: 16px;
-			padding-top: 65px;
+			font-size: 12px;
+			padding-top: 61px;
 		}
 		
 	}
@@ -396,7 +446,7 @@ nav ul li {
 		
 		@-moz-document url-prefix() {
 			nav {
-				margin-bottom: -11px;
+				padding-top: 10px;
 			}
 		}
 		
@@ -406,6 +456,7 @@ nav ul li {
 		
 		#overview h3 {
 			font-size: 30px;
+			line-height: 1.2;
 		}
 		
 		footer p {
@@ -417,33 +468,23 @@ nav ul li {
 	/* Mobile landscape size to tablet portrait (devices and browsers) */
 	@media only screen and (min-width: 480px) and (max-width: 767px) {
 		
-		
-		
 	}
 
 	/* Mobile portrait size to mobile landscape size (devices and browsers) */
 	@media only screen and (max-width: 479px) {
 		
-		#logo h1, #logoDetailView h1 {
-			font-size: 30px;
-		}
-		
-		#logo h2, #logoDetailView h2 {
-			font-size: 16px;
-			margin-top: -12px;
-		}
-		
 		#overview h3 {
-			font-size: 24px;	
+			font-size: 24px;
+			line-height: 1.2;	
 		}
 		
 		.projectThumbnailHover h4 {
-			font-size: 20px;
+			font-size: 14px;
 		}
 		
 		.projectThumbnailHover h5 {
-			font-size: 14px;
-			padding-top: 62px;
+			font-size: 12px;
+			padding-top: 56px;
 		}
 		
 	}

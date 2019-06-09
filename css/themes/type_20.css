@@ -21,12 +21,12 @@ Contents
 ===================================================================================================*/
 
 @font-face {
-	font-family: 'ChunkFiveRegular';
-	src: url('../../fonts/ChunkFive/Chunkfive-webfont.eot');
-	src: url('../../fonts/ChunkFive/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
-	url('../../fonts/ChunkFive/Chunkfive-webfont.woff') format('woff'),
-	url('../../fonts/ChunkFive/Chunkfive-webfont.ttf') format('truetype'),
-	url('../../fonts/ChunkFive/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+	font-family: 'LeagueGothicRegular';
+	src: url('../../fonts/LeagueGothic/League_Gothic-webfont.eot');
+	src: url('../../fonts/LeagueGothic/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+url('../../fonts/LeagueGothic/League_Gothic-webfont.woff') format('woff'),
+url('../../fonts/LeagueGothic/League_Gothic-webfont.ttf') format('truetype'),
+url('../../fonts/LeagueGothic/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -36,47 +36,47 @@ Contents
 ===================================================================================================*/
 
 #logo h1, #logoDetailView h1 {
-	font-family: "ChunkFiveRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 26px;
+	font-size: 42px;
 	line-height: 1.5;
-	letter-spacing: 0.05em;
+	letter-spacing: 0;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-rendering: optimizeLegibility;
 }
 
 #logo h2, #logoDetailView h2 {
-	font-family: "ChunkFiveRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.2;
 	letter-spacing: 0;
 	text-decoration: none;
-	text-transform: none;
+	text-transform: uppercase;
 	text-rendering: auto;
 }
 
 nav ul li a, nav ul li button, nav ul li span, #detailViewBack a {
-	font-family: "ChunkFiveRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 11px;
+	font-size: 16px;
 	line-height: 1.5;
-	letter-spacing: 0.11em;
+	letter-spacing: 0;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-rendering: auto;
 }
 
 #overview h3 {
-	font-family: "ChunkFiveRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 36px;
-	line-height: 1.2;
+	font-size: 52px;
+	line-height: 1.1;
 	letter-spacing: 0;
 	text-decoration: none;
 	text-transform: none;
@@ -84,72 +84,72 @@ nav ul li a, nav ul li button, nav ul li span, #detailViewBack a {
 }
 
 .projectThumbnailHover h4 {
-	font-family: "ChunkFiveRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	font-size: 24px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-rendering: auto;
+}
+
+.projectThumbnailHover h5 {
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: normal;
+    font-style: normal;
+	font-size: 16px;
+	line-height: 1.2;
+	letter-spacing: 0;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-rendering: auto;
+}
+
+.projectInfo h4 {
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
 	font-size: 18px;
 	line-height: 1.2;
 	letter-spacing: 0;
 	text-decoration: none;
-	text-transform: none;
-	text-rendering: auto;
-}
-
-.projectThumbnailHover h5 {
-	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: bold;
-    font-style: normal;
-	font-size: 12px;
-	line-height: 1.2;
-	letter-spacing: 0;
-	text-decoration: none;
-	text-transform: none;
-	text-rendering: auto;
-}
-
-.projectInfo h4 {
-	font-family: "ChunkFiveRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: normal;
-    font-style: normal;
-	font-size: 14px;
-	line-height: 1.2;
-	letter-spacing: 0;
-	text-decoration: none;
-	text-transform: none;
+	text-transform: uppercase;
 	text-rendering: auto;
 }
 
 .projectNavCounter {
-	font-family: "ChunkFiveRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 1.2;
 	letter-spacing: 0;
 	text-decoration: none;
-	text-transform: none;
+	text-transform: uppercase;
 	text-rendering: auto;
 }
 
 .projectNavButtons button {
-	font-family: "ChunkFiveRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 11px;
+	font-size: 16px;
 	line-height: 1.2;
-	letter-spacing: 0.05em;
+	letter-spacing: 0;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-rendering: auto;
 }
 
 .projectNavClose button, .projectNavEnlarge button {
-	font-family: "ChunkFiveRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 11px;
+	font-size: 16px;
 	line-height: 1.2;
-	letter-spacing: 0.05em;
+	letter-spacing: 0;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-rendering: auto;
@@ -169,7 +169,7 @@ p, li, .projectInfo p, .projectInfo li {
 
 footer p {
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-weight: bold;
+	font-weight: normal;
     font-style: normal;
 	font-size: 12px;
 	line-height: 1.2;
@@ -204,21 +204,21 @@ blockquote cite {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: "ChunkFiveRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
-	letter-spacing: 0;
-	text-transform: none;
+	letter-spacing: -0.03em;
+	text-transform: uppercase;
 }
 
 #heroNav a {
-	font-family: "ChunkFiveRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "LeagueGothicRegular", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
     font-style: normal;
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.2;
 	letter-spacing: 0;
 	text-decoration: underline;
-	text-transform: none;
+	text-transform: uppercase;
 	text-rendering: auto;
 }
 
@@ -251,13 +251,19 @@ h1, h2, h3, h4, h5, h6 {
 ===================================================================================================*/
 
 #logo h2, #logoDetailView h2 {
-	margin-top: -21px;
+	margin-top: -26px;
 	padding-left: 1px;
 }
 
 nav {
-	padding-top: 29px;
+	padding-top: 49px;
 	margin-bottom: -30px;
+}
+
+@-moz-document url-prefix() {
+	nav {
+		padding-top: 47px;
+	}
 }
 
 nav ul li {
@@ -270,7 +276,7 @@ nav ul li {
 
 #overview h3 {
 	margin-top: -5px;
-	margin-bottom: 20px;
+	margin-bottom: 23px;
 }
 
 .projectThumbnailHover h4 {
@@ -278,32 +284,32 @@ nav ul li {
 }
 
 .projectThumbnailHover h5 {
-	padding-top: 61px;
+	padding-top: 66px;
 }
 
 .projectInfo h4 {
-	padding-top: 13px;
-	padding-bottom: 8px;
+	padding-top: 9px;
+	padding-bottom: 6px;
 }
 
 .projectNavCounter {
-	padding-top: 15px;
+	padding-top: 11px;
 }
 
 .projectNavClose, .projectNavEnlarge {
-	padding-top: 6px;
-	padding-top: 7px\9; /* IE adjustment */
+	padding-top: 2px;
+	padding-top: 4px\9; /* IE adjustment */
 }
 
 .projectNavButtons {
-	padding-top: 6px;
-	padding-top: 7px\9; /* IE adjustment */
+	padding-top: 2px;
+	padding-top: 4px\9; /* IE adjustment */
 }
 
 /* Tweak positioning slightly in Firefox */
 @-moz-document url-prefix() {
   .projectNavEnlarge, .projectNavClose, .projectNavButtons {
-		padding-top: 7px;
+		padding-top: 4px;
 	}
 }
 
@@ -332,7 +338,6 @@ nav ul li {
 	padding-bottom: 7px;
 }
 
-
 /*===================================================================================================
 4) Media query adjustments
 ===================================================================================================*/
@@ -340,11 +345,17 @@ nav ul li {
 	@media only screen and (max-width: 959px) {
 		
 		nav ul li a, nav ul li button, nav ul li span, #detailViewBack {
-			font-size: 12px;
+			font-size: 16px;
 		}
 		
 		nav {
-			padding-top: 29px;
+			padding-top: 49px;
+		}
+		
+		@-moz-document url-prefix() {
+			nav {
+				padding-top: 47px;
+			}
 		}
 		
 	}
@@ -353,12 +364,12 @@ nav ul li {
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
 		
 		.projectThumbnailHover h4 {
-			font-size: 14px;
+			font-size: 24px;
 		}
 		
 		.projectThumbnailHover h5 {
-			font-size: 11px;
-			padding-top: 57px;
+			font-size: 16px;
+			padding-top: 65px;
 		}
 		
 	}
@@ -380,7 +391,13 @@ nav ul li {
 		
 		nav {
 			padding-top: 9px;
-			margin-bottom: -10px;
+			margin-bottom: -11px;
+		}
+		
+		@-moz-document url-prefix() {
+			nav {
+				margin-bottom: -11px;
+			}
 		}
 		
 		#overview {
@@ -408,25 +425,25 @@ nav ul li {
 	@media only screen and (max-width: 479px) {
 		
 		#logo h1, #logoDetailView h1 {
-			font-size: 22px;
+			font-size: 30px;
 		}
 		
 		#logo h2, #logoDetailView h2 {
-			font-size: 14px;
+			font-size: 16px;
 			margin-top: -12px;
 		}
 		
 		#overview h3 {
-			font-size: 20px;
+			font-size: 24px;	
 		}
 		
 		.projectThumbnailHover h4 {
-			font-size: 14px;
+			font-size: 20px;
 		}
 		
 		.projectThumbnailHover h5 {
-			font-size: 11px;
-			padding-top: 55px;
+			font-size: 14px;
+			padding-top: 62px;
 		}
 		
 	}
