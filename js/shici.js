@@ -17,7 +17,7 @@
         
         $("#jinrishici-s").html(						        
 			"<span>"+result.data.content+"</span>"+
-			"<span>——"+result.data.origin.author+"（"+result.data.origin.dynasty+"）"+"</span>"
+			/*"<span>——"+result.data.origin.author+"（"+result.data.origin.dynasty+"）"+"</span>"*/
 
 			        );
     });
