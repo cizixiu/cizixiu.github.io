@@ -30,6 +30,8 @@
 <script src="js/libs/jquery.easing.1.3.min.js"></script>
 <script src="js/libs/jquery.fitvids.js"></script>
 <script src="js/script.js"></script>
+<script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+<script src="js/shici.js"></script>	
 
 <style>
 	#tab-content > div{
@@ -69,8 +71,11 @@
 	<div  class="homePage" style="display:block;">
 	
 		<div id="overview" class="sixteen columns">
-		<h3>刺子绣研习社最新课程</h3>
+    <h3>
+	<div id="jinrishici-s"> 正在加载今日诗词....</div>
+    </h3>
 			<hr/>
+
 		</div>
 		
 		<div class="eight columns" id="col1">
@@ -221,10 +226,7 @@
 
 		</div>
 	<footer class="sixteen columns">
-        <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-<script src="js/shici.js"></script>	
-	<div id="jinrishici-s">正在加载今日诗词....</div>
-<a href="javascript:void(0)" οnclick="location.reload()" >▏换一首诗词▕</a>
+
 		<hr/>
 <ul id="footerLinks">
             <li>在线：<a href="https://shihua.cizixiu.com" target="_blank">设计 柿花</a></li>
