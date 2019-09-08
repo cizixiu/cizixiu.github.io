@@ -1014,6 +1014,8 @@ nav ul li button:hover, nav ul li button:active, nav ul li button:focus, nav ul 
 
 .projectThumbnail img {
 	display: block;
+    height: 185px;
+ 
 }
 
 .projectThumbnailHover {
@@ -1386,11 +1388,12 @@ footer p {
 #footerLinks li {
 	font-weight: bold;
 	font-size: 12px;
-	display: inline;
+	display:inline;
 	padding-left: 12px;
 	margin-left: 0;
 	border-right: 1px solid;
 	padding-right: 15px;
+   
 }
 
 #footerLinks li:first-child {
@@ -1546,7 +1549,7 @@ code {
 		}
 		
 		#footerLinks li {
-			display: block;
+			display: inline;
 			padding-left: 0;
 			margin-left: 0;
 			border-right: none;
