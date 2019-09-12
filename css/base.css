@@ -988,7 +988,7 @@ nav ul li button:hover, nav ul li button:active, nav ul li button:focus, nav ul 
 }
 
 #overview h3 {
-	font-family: Georgia, Arial, sans-serif;
+	font-family:  sans-serif, Georgia, Arial;
 	font-weight: normal;
     font-style: normal;
 	font-size: 30px;
@@ -1388,7 +1388,7 @@ footer p {
 #footerLinks li {
 	font-weight: bold;
 	font-size: 12px;
-	display:inline;
+    display:inline;
 	padding-left: 12px;
 	margin-left: 0;
 	border-right: 1px solid;
