@@ -42,7 +42,8 @@ footer p { color: #383324; }
 footer a { color: #c45723; }
 h1, h2, h3, h4, h5, h6, #faq p:first-child, .contentModule a, .contentModule a:visited { color: #383324; }
 #heroNav a, #heroNav a:visited { color: #c45723; }
-a, a:visited { color: #c45723; }
+a, a:visited { color: #F0ECEC; }
+/*a, a:visited { color: #c45723; }*/
 a:hover, a:active, a:focus { color: #ffffff; }
 #formField { background: #ded1b5; }
 #formField:focus { background: #e6ddc8; }
